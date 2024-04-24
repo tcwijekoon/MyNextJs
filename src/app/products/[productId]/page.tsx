@@ -1,4 +1,5 @@
 import { metadata } from "@/app/layout";
+import { Metadata } from "next";
 import { resolve } from "path";
 
 type Props = {
@@ -20,6 +21,9 @@ export const generateMetadata = async ({
     };
 };
 
-export default function prodDetails({params}){
+export default function prodDetails({params,}:{
+    params : {
+        productId : string
+    }}){
     return <h1>product details {params.productId}</h1>
 }

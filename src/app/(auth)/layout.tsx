@@ -16,7 +16,7 @@ const navLinks = [
 export default function AuthLayout({
     children,
 }: {
-    childre : React.ReactNode
+    children : React.ReactNode
 }){
     const pathName = usePathname();
     const [input, setInput] = useState("");

@@ -1,3 +1,7 @@
 export default function BLog(){
-    return <h1> This is blog page</h1>
+
+    return (
+        <h1> This is blog page</h1>
+    )
 }
+

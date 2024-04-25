@@ -25,14 +25,14 @@ export default function RootLayout({
           <h1>Header</h1>
         </header>
         <div style={{
-          backgroundColor : 'lightgreen',
+          backgroundColor : 'skyblue',
           padding: '1em',
           flex : '5'
         }}>
           {children}
         </div>
         <footer style = {{
-          backgroundColor : 'lightgrey',
+          backgroundColor : 'lightblue',
           padding:'1em',
           flex: '2'
         }}>

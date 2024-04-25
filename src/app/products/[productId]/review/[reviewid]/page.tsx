@@ -1,3 +1,4 @@
+"use client"
 import { notFound } from 'next/navigation'
   
 function getRandomInt(count : number){
@@ -16,7 +17,7 @@ export default function Review({
     const randomInt = getRandomInt(2);
 
     if (randomInt === 1){
-        throw new Error('Error getting random number');
+        throw new Error("Error getting random number");
     }
     if (parseInt(params.reviewId) > 1000){
         notFound();
